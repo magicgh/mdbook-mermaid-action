@@ -24,7 +24,7 @@ jobs:
           mdbook-version: 'latest'
 
       - name: Setup mdbook-mermaid
-        uses: magicgh/mdbook-mermaid-action@v1.0.0
+        uses: magicgh/mdbook-mermaid-action@v1
         with:
           version: 'latest'
       
@@ -39,7 +39,7 @@ jobs:
 - name: Setup mdbook-mermaid
   uses: magicgh/mdbook-mermaid-action@v1
   with:
-    version: '0.2.9'
+    version: '0.8.1'
 ```
 
 * Maybe this script can be run on Docker, but I haven't test yet. Check out [actions-mdbook](https://github.com/peaceiris/actions-mdbook#readme) for more detail.
