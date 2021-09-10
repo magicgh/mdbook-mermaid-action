@@ -10,5 +10,5 @@ runs:
   using: 'node12'
   main: 'lib/index.js'
 branding:
-  icon: 'file'
-  color: 'green'
+  icon: 'pie-chart'
+  color: 'orange'
