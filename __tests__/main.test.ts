@@ -73,7 +73,7 @@ describe('Integration testing run()', () => {
         .reply(200, jsonTest);
       nock('https://github.com')
         .get(
-          `/badboy/mdbook-mermaid/releases/download/v0.8.2/mdbook-mermaid-v0.8.2-x86_64-unknown-linux-gnu.tar.gz`
+          `/badboy/mdbook-mermaid/releases/download/v0.8.3/mdbook-mermaid-v0.8.3-x86_64-unknown-linux-gnu.tar.gz`
         )
         .reply(404);
       try {
