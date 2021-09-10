@@ -1,0 +1,14 @@
+name: 'mdbook-mermaid Action'
+description: 'GitHub Actions for mdbook-mermaid'
+author: 'magicgh'
+inputs:
+  version:
+    description: 'The mdbook-mermaid version to download (if necessary) and use. Example: 0.8.3'
+    required: false
+    default: 'latest'
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
+branding:
+  icon: 'file'
+  color: 'green'
